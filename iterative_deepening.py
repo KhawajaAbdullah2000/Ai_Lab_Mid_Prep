@@ -5,7 +5,6 @@ def IDS(graph, start_node, goal_node, max_depth):
         
         while stack:
             current_node, current_depth = stack.pop()
-            
             if current_node == goal_node:
                 return True
             
